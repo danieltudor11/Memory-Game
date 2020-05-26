@@ -1,0 +1,32 @@
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	height: 307px;
+	width: 409px;
+	justify-content: center;
+	margin-left: auto; margin-right: auto;
+}
+
+img {
+	border: 1px solid black;
+}
+
+body {
+	height: 100%;
+	background-color: #cccccc;
+	background-image: linear-gradient(to right, dodgerblue, salmon 50%, moccasin);
+}
+
+#score {
+	text-align: center;
+	color: white;
+	margin-bottom: 20px; margin-top: 60px;
+}
+
+.topper {
+	color: #ff4;
+	font-size: 44px;
+	text-align: center;
+	text-shadow: 2px 2px 7px #555;
+    text-decoration: underline;
+}
